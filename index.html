@@ -1,12 +1,33 @@
-<!DOCTYPEhtml>
-<html>
+<!DOCTYPE html>
+<html lang="id">
 <head>
-<title>BOTAK NIH Bousss!/title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Makanan</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<h1>botak nih bouskuu</h1>
-<p>kita ada empat .</p>
-
+    <header>
+        <h1>Selamat Datang di Website Makanan</h1>
+    </header>
+    <main>
+        <div class="food-item">
+            <img src="https://via.placeholder.com/150" alt="Makanan 1">
+            <h2>Makanan 1</h2>
+            <p>Deskripsi singkat tentang makanan 1.</p>
+            <button onclick="showDetails('Makanan 1', 'Ini adalah detail tentang Makanan 1.')">Lihat Detail</button>
+        </div>
+        <div class="food-item">
+            <img src="https://via.placeholder.com/150" alt="Makanan 2">
+            <h2>Makanan 2</h2>
+            <p>Deskripsi singkat tentang makanan 2.</p>
+            <button onclick="showDetails('Makanan 2', 'Ini adalah detail tentang Makanan 2.')">Lihat Detail</button>
+        </div>
+        <!-- Tambahkan lebih banyak item makanan di sini -->
+    </main>
+    <footer>
+        <p>&copy; 2024 Website Makanan</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
