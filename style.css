@@ -15,7 +15,7 @@ body {
 
 /* Gaya untuk header */
 header {
-    background-color: #1d1919;
+    background-color: #6600ff;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -49,7 +49,7 @@ main {
 
 /* Gaya untuk tombol */
 button {
-    background-color: #1d1919;
+    background-color: #4CAF50;
     color: white;
     border: none;
     border-radius: 5px;
@@ -59,14 +59,14 @@ button {
 }
 
 button:hover {
-    background-color: #1d1919;
+    background-color: #45a049;
 }
 
 /* Gaya untuk footer */
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #1d1919;
+    background-color: #4CAF50;
     color: white;
     position: relative;
     bottom: 0;
