@@ -1,19 +1,19 @@
 /* style.css */
 
-/* Reset beberapa gaya dasar */
+
 body, h1, h2, p {
     margin: 0;
     padding: 0;
 }
 
-/* Gaya untuk body */
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f8f8f8;
     color: #333;
 }
 
-/* Gaya untuk header */
+
 header {
     background-color: #010101;
     color: white;
@@ -29,7 +29,7 @@ main {
     padding: 20px;
 }
 
-/* Gaya untuk item makanan */
+
 .food-item {
     background-color: white;
     border: 1px solid #ddd;
@@ -47,9 +47,9 @@ main {
     border-radius: 5px;
 }
 
-/* Gaya untuk tombol */
+
 button {
-    background-color: #4CAF50;
+    background-color: #636663;
     color: white;
     border: none;
     border-radius: 5px;
@@ -62,7 +62,7 @@ button:hover {
     background-color: #45a049;
 }
 
-/* Gaya untuk footer */
+
 footer {
     text-align: center;
     padding: 20px;
